@@ -43,6 +43,7 @@ body {
     font-weight: 600;
     border: none;
     border-radius: 3px;
+    position: relative;
 }
 
 #countryCards1 {
@@ -64,7 +65,7 @@ body {
     font-size: 0.8rem;
     gap: 0px;
     width: 15rem;
-    
+    height: 17rem;
 }
 
 .country p{
@@ -89,4 +90,47 @@ body {
 .img {
     object-fit: cover;
     width: 15rem;
+    height: 70%;
 }
+
+#btn {
+    width: 25px;
+    height: 25px;
+    border: none;
+    padding: auto;
+    background-color: var(--secondary-color);
+    margin-top: 6px;
+    position: absolute;
+    /* top: 50%; */
+    left: 13.5%;
+}
+
+#btn img{
+    /* color: white; */
+    height: 90%;
+}
+
+input[type="text"] {
+    background-color: var(--secondary-color);
+}
+
+
+
+
+
+/* const btn = document.getElementById("btn");
+btn.addEventListener('click', function() {    
+    
+})
+
+// searchKey.addEventListener('input', () => {
+//     const searchText = searchKey.value.toLowerCase();
+//     console.log(searchText)
+//     // Filter countries based on the search text
+//     const filteredCountries = countries.filter(country =>
+//         country.name.toLowerCase().includes(searchText)
+//     );
+
+//     // Display the filtered countries
+//     displayCountries(filteredCountries);
+// }); */
