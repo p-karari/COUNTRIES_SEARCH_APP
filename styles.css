@@ -114,7 +114,16 @@ input[type="text"] {
     background-color: var(--secondary-color);
 }
 
-
+#header div span{
+    display: flex;
+}
+#header div span img{
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 5px;
+    /* background-color: white; */
+}
 
 
 
