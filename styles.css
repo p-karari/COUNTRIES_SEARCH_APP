@@ -11,6 +11,9 @@ body {
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #header {
@@ -43,19 +46,15 @@ body {
 }
 
 #countryCards1 {
-    display: flex;
-    justify-content: space-between;
-    padding: 35px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 20px;
+    padding: 20px;
     color: white;
-    /* background-color: var(--secondary-color); */
-}
-
-#countryCards2 {
-    display: flex;
-    justify-content: space-between;
-    padding: 35px;
-    color: white;
-    /* background-color: var(--secondary-color); */
+    margin-left: 3rem;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .country {
@@ -65,6 +64,7 @@ body {
     font-size: 0.8rem;
     gap: 0px;
     width: 15rem;
+    
 }
 
 .country p{
